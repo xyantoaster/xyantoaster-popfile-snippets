@@ -1,0 +1,25 @@
+{
+	"name": "popfile-snippets",
+	"displayName": "MvM Popfile Snippets",
+	"description": "Snippets to make the creation of Popfiles faster and easier!",
+	"version": "1.0.0",
+	"publisher": "xyantoaster",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xyantoaster/ENTER-NAME-HERE"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "popfile",
+				"path": "./snippets/popfile.json"
+			}
+		]
+	}
+}
