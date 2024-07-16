@@ -9,7 +9,7 @@ This has mostly everything you'll need to create a popfile quickly, so you can s
 
 If you have any ideas for snippets that should be added, put them in the "issues" section on the GitHub page (make sure to tag it as an enhancement, though.)
 
-![alt text](https://github.com/xyantoaster/xyantoaster-popfile-snippets/blob/main/images/example_usage.gif "Example usage of the extension)
+![alt text](https://github.com/xyantoaster/xyantoaster-popfile-snippets/blob/main/images/example_usage.gif "Example usage of the extension")
 
 ## List of Snippets
 | Snippet | Description                                   |
