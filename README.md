@@ -36,5 +36,5 @@ If you have any ideas for snippets that should be added, put them in the "issues
 | `wspt`   | Tank WaveSpawn Template                    |
 
 ### More Indepth on Each Snippet
-More information about each snippet can be found here: [description.md](https://github.com/xyantoaster/xyantoaster-popfile-snippets)
+More information about each snippet can be found here: [description.md](https://github.com/xyantoaster/xyantoaster-popfile-snippets/blob/main/description.md)
 
