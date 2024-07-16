@@ -1478,7 +1478,7 @@
 			"    DesiredCount        ${8:1}\n",
 			"    TFBot",
 			"    {",
-			"        Template ${9:[Bot Template]}",
+			"       ${9:// Stuff goes here}",
 			"    }",
 			"}"
 		],

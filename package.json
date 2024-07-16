@@ -6,7 +6,7 @@
 	"publisher": "xyantoaster",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/xyantoaster/ENTER-NAME-HERE"
+		"url": "https://github.com/xyantoaster/xyantoaster-popfile-snippets"
 	},
 	"engines": {
 		"vscode": "^1.33.0"

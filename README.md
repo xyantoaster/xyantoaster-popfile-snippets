@@ -19,6 +19,8 @@ If you have any ideas for snippets that should be added, put them in the "issues
 | `ws6`   | Wave Schedule with 6 Waves                    |
 | `ws7`   | Wave Schedule with 7 Waves                    |
 | `ws8`   | Wave Schedule with 8 Waves                    |
+| `wsnw`   | Wave Schedule with No WaveSpawns                    |
+| `wskv`   | Wave Schedule with Only KeyValues                    |
 | `msnip`   | Sniper Mission                    |
 | `mspy`   | Spy Mission                    |
 | `mds`   | Sentry Buster Mission                   |
@@ -32,4 +34,7 @@ If you have any ideas for snippets that should be added, put them in the "issues
 | `wsps`   | Squad WaveSpawn Template                    |
 | `wsprc`   | RandomChoice WaveSpawn Template                    |
 | `wspt`   | Tank WaveSpawn Template                    |
+
+### More Indepth on Each Snippet
+More information about each snippet can be found here: [description.md](https://github.com/xyantoaster/xyantoaster-popfile-snippets)
 
