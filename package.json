@@ -2,7 +2,7 @@
 	"name": "popfile-snippets",
 	"displayName": "MvM Popfile Snippets",
 	"description": "Snippets to make the creation of Popfiles faster and easier!",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"icon": "./images/popfile-snippets-logo.png",
 	"publisher": "xyantoaster-dev",
 	"repository": {

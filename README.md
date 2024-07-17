@@ -36,6 +36,7 @@ If you have any ideas for snippets that should be added, put them in the "issues
 | `wsps`     | Squad WaveSpawn Template                |
 | `wsprc`    | RandomChoice WaveSpawn Template         |
 | `wspt`     | Tank WaveSpawn Template                 |
+| `iwo`      | InitWaveOutput Snippet                  |
 
 ### More Indepth on Each Snippet
 More information about each snippet can be found here: [description.md](https://github.com/xyantoaster/xyantoaster-popfile-snippets/blob/main/description.md)

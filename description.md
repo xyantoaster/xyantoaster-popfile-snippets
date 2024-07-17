@@ -10,6 +10,186 @@ This snippets writes out all the base robot files so you can use the bot templat
 #base robot_gatebot.pop
 ```
 
+# Wave Schedule with 1 Wave
+### Write in editor:
+`ws1`
+### Description
+This snippets prints out a WaveSchedule with 1 waves filled automatically so you can immediately start writing WaveSpawns.
+### Prints
+```
+WaveSchedule
+{
+    StartingCurrency                      400
+    RespawnWaveTime                       7
+    CanBotsAttackWhileInSpawnRoom         No
+    // Optional KeyValues
+    AddSentryBusterWhenKillCountExceeds   15
+    AddSentryBusterWhenDamageDealtExceeds 3000
+    FixedRespawnWaveTime                  No
+    Advanced                              0 // Only enable for Advanced/Expert missions (for achievements)
+    EventPopFile                          Halloween // If you don't want this mission to be like wave 666 then delete this line
+    IsEndless                             0 // Makes the waves spawn in continuously with no time between waves. Might be broken.
+
+    // Wave 1 Sentry Busters
+    Mission
+    {
+        Objective           DestroySentries
+        Where               spawnbot
+        BeginAtWave         1
+        RunForThisManyWaves 1
+        CooldownTime        70
+        DesiredCount        1
+        InitialCooldown     30
+        TFBot
+        {
+            Template T_TFBot_SentryBuster
+        }
+    }
+
+    // Wave 1 - X Currency
+    Wave
+    {
+
+        StartWaveOutput
+        {
+            Target wave_start_relay // Replace with "Target wave_start_relay_classic" for Rottenburg
+            Action Trigger
+        }
+
+        DoneOutput
+        {
+            Target wave_finished_relay
+            Action Trigger
+        }
+
+        // Subwave description here
+        WaveSpawn
+        {
+            Name "wave1a"
+            Where spawnbot
+            TotalCount 12
+            MaxActive 6
+            SpawnCount 3
+            WaitBeforeStarting 0
+            WaitBetweenSpawns 10
+            TotalCurrency 60
+            TFBot
+            {
+                Class Scout
+                Skill Hard
+            }
+        }
+    }
+}
+```
+# Wave Schedule with 2 Waves
+### Write in editor:
+`ws2`
+### Description
+This snippets prints out a WaveSchedule with 2 waves filled automatically so you can immediately start writing WaveSpawns.
+### Prints
+```
+WaveSchedule
+{
+    StartingCurrency                      400
+    RespawnWaveTime                       7
+    CanBotsAttackWhileInSpawnRoom         No
+    // Optional KeyValues
+    AddSentryBusterWhenKillCountExceeds   15
+    AddSentryBusterWhenDamageDealtExceeds 3000
+    FixedRespawnWaveTime                  No
+    Advanced                              0 // Only enable for Advanced/Expert missions (for achievements)
+    EventPopFile                          Halloween // If you don't want this mission to be like wave 666 then delete this line
+    IsEndless                             0 // Makes the waves spawn in continuously with no time between waves. Might be broken.
+
+    // Wave 1 and 2 Sentry Busters
+    Mission
+    {
+        Objective           DestroySentries
+        Where               spawnbot
+        BeginAtWave         1
+        RunForThisManyWaves 2
+        CooldownTime        70
+        DesiredCount        1
+        InitialCooldown     30
+        TFBot
+        {
+            Template T_TFBot_SentryBuster
+        }
+    }
+
+    // Wave 1 - X Currency
+    Wave
+    {
+
+        StartWaveOutput
+        {
+            Target wave_start_relay // Replace with "Target wave_start_relay_classic" for Rottenburg
+            Action Trigger
+        }
+
+        DoneOutput
+        {
+            Target wave_finished_relay
+            Action Trigger
+        }
+
+        // Subwave description here
+        WaveSpawn
+        {
+            Name "wave1a"
+            Where spawnbot
+            TotalCount 12
+            MaxActive 6
+            SpawnCount 3
+            WaitBeforeStarting 0
+            WaitBetweenSpawns 10
+            TotalCurrency 60
+            TFBot
+            {
+                Class Scout
+                Skill Hard
+            }
+        }
+    }
+
+    // Wave 2 - X Currency
+    Wave
+    {
+
+        StartWaveOutput
+        {
+            Target wave_start_relay // Replace with "Target wave_start_relay_classic" for Rottenburg
+            Action Trigger
+        }
+
+        DoneOutput
+        {
+            Target wave_finished_relay
+            Action Trigger
+        }
+
+        // Subwave description here
+        WaveSpawn
+        {
+            Name "wave2a"
+            Where spawnbot
+            TotalCount 12
+            MaxActive 6
+            SpawnCount 3
+            WaitBeforeStarting 0
+            WaitBetweenSpawns 10
+            TotalCurrency 60
+            TFBot
+            {
+                Class Scout
+                Skill Hard
+            }
+        }
+    }
+}
+```
+
 # Wave Schedule with 3 Waves
 ### Write in editor:
 `ws3`
@@ -1455,6 +1635,21 @@ WaveSchedule
     IsEndless                             0 // Activate super secret endless MvM mode (i dont know what this is)
 }
 ```
+# InitWaveOutput Snippet
+### Write in editor:
+`iwo`
+### Description
+This snippets prints out an InitWaveOutput block, which some maps use (like Mannhattan).
+### Prints
+```
+InitWaveOutput
+{
+    Target EntityNameHere
+    Action Trigger
+}
+
+```
+
 # Sniper Mission
 ### Write in editor:
 `msnip`
