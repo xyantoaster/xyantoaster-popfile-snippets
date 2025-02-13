@@ -10,3 +10,12 @@
 - Added an InitWaveOutput snippet **(bug found by: fellen)**
 - Cleaned up the snippets a bit
 - Put some KeyValues under an "Optional KeyValues" comment so people know they are optional
+# Version 1.1.0 (The return of the snippets)
+- Added a notice to README that this is open-source and can be used how you see fit, but giving credit is appreciated.
+- Added the most annoying watermark in the world at the top of every WaveSchedule template (you're so welcome)
+- Added WaveScedules for 9 and 10 wave missions (if you're using these you are a PSYCHOPATH).
+- Added more description to most KeyValues, describing what they do in more detail.
+- For the KeyValues in the WaveSpawns, the descriptions are only there for the first WaveSpawn, so it isn't as cluttered.
+- Fixed ws7 not having a CanBotsAttackInSpawnRoom KeyValue.
+- ACTUALLY fixed WaitForAllSpawned/Dead comments (they were still lurking in the shadows)
+- Added WaveSpawn snippets for each class with some KeyValues already filled out.
