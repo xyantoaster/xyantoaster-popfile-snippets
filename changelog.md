@@ -19,3 +19,9 @@
 - Fixed ws7 not having a CanBotsAttackInSpawnRoom KeyValue.
 - ACTUALLY fixed WaitForAllSpawned/Dead comments (they were still lurking in the shadows)
 - Added WaveSpawn snippets for each class with some KeyValues already filled out.
+# Version 1.1.1 **(Mostly created by Braindawg, thank you very much)**
+- Automatically insert #base includes **(Braindawg)**
+- Automatically comment out IsEndless **(Braindawg)**
+- Added comments on how Advanced and IsEndless works
+- Bugfix: FixedRespawnWaveTime did not have a comment describing how it worked on ws1 and wsnw
+- Fixed the Readme file not having ws1 and ws2 listed

@@ -7,7 +7,7 @@ Since this is open source, you are completely free to take these and modify them
 
 I am open to pull requests if you have something to change or add.
 
-This has mostly everything you'll need to create a popfile quickly, so you can spend less time typing and more time testing your mission!
+This has mostly everything you'll need to create a popfile quickly, so you can spend less time typing and more time creating your mission!
 
 If you have any ideas for snippets that should be added, put them in the "issues" section on the GitHub page (make sure to tag it as an enhancement, though.)
 
@@ -17,12 +17,16 @@ If you have any ideas for snippets that should be added, put them in the "issues
 | Snippet      | Description                             |
 | -------      | ----------------------------------------|
 | `base`       | Writes out all the base robot files     |
+| `ws1`        | Wave Schedule with 1 Wave               |
+| `ws2`        | Wave Schedule with 2 Waves              |
 | `ws3`        | Wave Schedule with 3 Waves              |
 | `ws4`        | Wave Schedule with 4 Waves              |
 | `ws5`        | Wave Schedule with 5 Waves              |
 | `ws6`        | Wave Schedule with 6 Waves              |
 | `ws7`        | Wave Schedule with 7 Waves              |
 | `ws8`        | Wave Schedule with 8 Waves              |
+| `ws9`        | Wave Schedule with 9 Waves              |
+| `ws10`       | Wave Schedule with 10 Waves             |
 | `wsnw`       | Wave Schedule with No WaveSpawns        |
 | `wskv`       | Wave Schedule with Only KeyValues       |
 | `msnip`      | Sniper Mission                          |
@@ -51,5 +55,5 @@ If you have any ideas for snippets that should be added, put them in the "issues
 | `iwo`        | InitWaveOutput Snippet                  |
 
 ### More Indepth on Each Snippet
-More information about each snippet can be found here (Slightly outdated, probably won't be fully updated for a while, yw): [description.md](https://github.com/xyantoaster/xyantoaster-popfile-snippets/blob/main/description.md)
+More information about each snippet can be found here (Slightly outdated, mostly accurate but some of what the snippets print isn't 100% accurate): [description.md](https://github.com/xyantoaster/xyantoaster-popfile-snippets/blob/main/description.md)
 
